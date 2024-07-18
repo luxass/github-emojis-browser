@@ -7,8 +7,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "lint": "eslint .",
+    "typecheck": "astro check"
   },
   "dependencies": {
     "@astrojs/netlify": "^5.4.0",
