@@ -1,11 +1,3 @@
 {
-  "extends": "astro/tsconfigs/strict",
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "jsxImportSource": "@builder.io/qwik",
-    "paths": {
-      "github-emojis": ["../src/index.ts"],
-      "github-emojis/*": ["../src/*.ts"]
-    }
-  }
+  "extends": "astro/tsconfigs/strict"
 }

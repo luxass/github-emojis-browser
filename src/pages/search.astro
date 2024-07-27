@@ -20,12 +20,14 @@ if (!search) {
 } else {
   result = fuse.search(search).map((result) => result.item);
 }
+
+export const prerender = false;
 ---
 
 {result.map((emoji) => (
   <EmojiCard
     emojiKey={emoji.emojiKey}
     emoji={emoji.emoji!}
-    emojiUrl={emoji.emojiUrl
-  }/>
+    emojiUrl={emoji.emojiUrl}
+  />
 ))}

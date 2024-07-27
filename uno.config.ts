@@ -16,7 +16,9 @@ export default defineConfig({
     "border-base": "border-gray/20",
   },
   presets: [
-    presetUno(),
+    presetUno({
+      dark: "media",
+    }),
     presetIcons({
       scale: 1.2,
     }),
