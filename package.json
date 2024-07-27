@@ -1,5 +1,5 @@
 {
-  "name": "www",
+  "name": "github-emojis-browser",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.6.0",
