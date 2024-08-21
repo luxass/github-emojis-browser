@@ -22,7 +22,7 @@ importers:
         version: 1.1.5
       htmx.org:
         specifier: ^2.0.1
-        version: 2.0.1
+        version: 2.0.2
     devDependencies:
       '@astrojs/check':
         specifier: ^0.8.3
@@ -2362,8 +2362,8 @@ packages:
   htmlparser2@8.0.2:
     resolution: {integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==}
 
-  htmx.org@2.0.1:
-    resolution: {integrity: sha512-wO/rWlveSLD2mzRS9Em0v5hlsi6r21iUvaS17GPMgehBbM7eoQmqGQCkscsM67poF24zONgq3gQv+q/cgCHn2w==}
+  htmx.org@2.0.2:
+    resolution: {integrity: sha512-eUPIpQaWKKstX393XNCRCMJTrqPzikh36Y9RceqsUZLTtlFjFaVDgwZLUsrFk8J2uzZxkkfiy0TE359j2eN6hA==}
 
   http-cache-semantics@4.1.1:
     resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
@@ -6510,7 +6510,7 @@ snapshots:
       domutils: 3.1.0
       entities: 4.5.0
 
-  htmx.org@2.0.1: {}
+  htmx.org@2.0.2: {}
 
   http-cache-semantics@4.1.1: {}
 
