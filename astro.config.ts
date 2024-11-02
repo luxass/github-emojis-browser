@@ -1,8 +1,8 @@
-import { defineConfig } from "astro/config";
-import UnoCSS from "unocss/astro";
-import icon from "astro-icon";
-import netlify from "@astrojs/netlify";
 import type { AstroIntegration } from "astro";
+import netlify from "@astrojs/netlify";
+import { defineConfig } from "astro/config";
+import icon from "astro-icon";
+import UnoCSS from "unocss/astro";
 
 const astroHTMX: AstroIntegration = {
   name: "astro-htmx",
