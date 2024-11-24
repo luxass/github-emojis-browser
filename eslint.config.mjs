@@ -5,5 +5,6 @@ import {
 
 export default luxass({
   astro: true,
+  formatters: true,
   unocss: true,
 });

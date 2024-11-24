@@ -25,10 +25,4 @@ if (!search) {
 export const prerender = false;
 ---
 
-{result.map((emoji) => (
-  <EmojiCard
-    emojiKey={emoji.emojiKey}
-    emoji={emoji.emoji!}
-    emojiUrl={emoji.emojiUrl}
-  />
-))}
+{result.map((emoji) => <EmojiCard emojiKey={emoji.emojiKey} emoji={emoji.emoji!} emojiUrl={emoji.emojiUrl} />)}

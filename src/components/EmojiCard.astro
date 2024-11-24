@@ -1,7 +1,5 @@
 ---
-import {
-  isUnicodeUrl,
-} from "github-emojis/utils";
+import { isUnicodeUrl } from "github-emojis/utils";
 
 export interface Props {
   emojiKey: string;
@@ -9,22 +7,16 @@ export interface Props {
   emojiUrl?: string;
 }
 
-const {
-  emojiKey,
-  emoji,
-  emojiUrl,
-} = Astro.props;
+const { emojiKey, emoji, emojiUrl } = Astro.props;
 ---
 
 <div class="flex flex-col items-center justify-between gap2 border border-base rounded p-2 shadow-sm bg-base">
-  {emojiUrl && !isUnicodeUrl(emojiUrl)
-? (
+  {
+    emojiUrl && !isUnicodeUrl(emojiUrl) ? (
       <img src={emojiUrl} width={32} height={32} class="" alt={`GitHub Emoji for ${emojiKey}`} />
-  )
-: (
-      <p class="text-3xl">
-        {emoji}
-      </p>
-  )}
+    ) : (
+      <p class="text-3xl">{emoji}</p>
+    )
+  }
   <p>:{emojiKey}:</p>
 </div>
