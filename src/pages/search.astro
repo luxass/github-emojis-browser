@@ -11,6 +11,7 @@ if (Astro.request.method !== "POST") {
   return Astro.redirect(null, 404);
 }
 
+// eslint-disable-next-line antfu/no-top-level-await
 const formData = await Astro.request.formData();
 const search = formData.get("search")?.toString();
 

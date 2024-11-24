@@ -1,7 +1,7 @@
 import type { AstroIntegration } from "astro";
 import cloudflare from "@astrojs/cloudflare";
-import { defineConfig } from "astro/config";
 import icon from "astro-icon";
+import { defineConfig } from "astro/config";
 import UnoCSS from "unocss/astro";
 
 const astroHTMX: AstroIntegration = {
