@@ -1,5 +1,5 @@
 import type { AstroIntegration } from "astro";
-import netlify from "@astrojs/netlify";
+import cloudflare from "@astrojs/cloudflare";
 import { defineConfig } from "astro/config";
 import icon from "astro-icon";
 import UnoCSS from "unocss/astro";
@@ -28,8 +28,6 @@ export default defineConfig({
     astroHTMX,
   ],
   compressHTML: false,
-  adapter: netlify({
-    cacheOnDemandPages: true,
-  }),
+  adapter: cloudflare(),
   output: "hybrid",
 });
