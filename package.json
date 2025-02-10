@@ -21,7 +21,7 @@
     "@astrojs/check": "^0.9.4",
     "@luxass/eslint-config": "^4.13.0",
     "@unocss/eslint-plugin": "^65.0.0",
-    "@unocss/reset": "^0.65.0",
+    "@unocss/reset": "^65.0.0",
     "@vueuse/components": "^12.0.0",
     "astro": "^4.16.14",
     "astro-eslint-parser": "^1.1.0",
@@ -31,6 +31,6 @@
     "eslint-plugin-format": "^1.0.0",
     "fuse.js": "^7.0.0",
     "prettier-plugin-astro": "^0.14.1",
-    "unocss": "^0.65.0"
+    "unocss": "^65.0.0"
   }
 }
