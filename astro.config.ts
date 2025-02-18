@@ -12,7 +12,6 @@ export default defineConfig({
     icon(),
     astroHTMX,
   ],
-  compressHTML: false,
   adapter: cloudflare(),
-  output: "hybrid",
+  output: "server",
 });
