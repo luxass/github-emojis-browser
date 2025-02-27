@@ -1,6 +1,8 @@
 import type { APIRoute } from "astro";
 
-export const POST: APIRoute = async ({ locals }) => {
+export const prerender = false;
+
+export const GET: APIRoute = async ({ locals }) => {
   const emojiUrlsRaw = await fetch("https://api.github.com/emojis", {
     headers: {
       "Accept": "application/vnd.github.v3+json",
