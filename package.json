@@ -20,7 +20,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "@luxass/eslint-config": "^4.15.0",
-    "@unocss/eslint-plugin": "^65.5.0",
+    "@unocss/eslint-plugin": "^66.0.0",
     "@unocss/reset": "^66.0.0",
     "@vueuse/components": "^12.7.0",
     "astro": "^5.3.0",
