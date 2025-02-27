@@ -12,6 +12,16 @@ export default defineConfig({
     icon(),
     astroHTMX,
   ],
+  env: {
+    schema: {
+      GITHUB_TOKEN: {
+        type: "string",
+        access: "secret",
+        context: "server",
+      },
+    },
+    validateSecrets: true,
+  },
   adapter: cloudflare(),
   output: "server",
 });

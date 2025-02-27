@@ -12,3 +12,5 @@ dist
 # env
 .env
 .astro
+.dev.vars
+worker-configuration.d.ts
