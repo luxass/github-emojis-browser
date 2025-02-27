@@ -20,7 +20,6 @@ export default defineConfig({
         context: "server",
       },
     },
-    validateSecrets: true,
   },
   adapter: cloudflare(),
   output: "server",
