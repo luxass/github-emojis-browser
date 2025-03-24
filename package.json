@@ -34,7 +34,7 @@
     "fuse.js": "^7.1.0",
     "prettier-plugin-astro": "^0.14.1",
     "unocss": "^66.0.0",
-    "wrangler": "^3.110.0"
+    "wrangler": "^4.0.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
