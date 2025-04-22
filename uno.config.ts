@@ -1,15 +1,13 @@
+import presetWind4 from "@unocss/preset-wind4";
 import {
   defineConfig,
-  presetIcons,
-  presetUno,
   transformerDirectives,
   transformerVariantGroup,
 } from "unocss";
 
 export default defineConfig({
   presets: [
-    presetUno(),
-    presetIcons(),
+    presetWind4(),
   ],
   theme: {
     colors: {
