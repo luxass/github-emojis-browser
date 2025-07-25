@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
-    "@luxass/eslint-config": "^4.18.1",
+    "@luxass/eslint-config": "^5.0.0",
     "@unocss/eslint-plugin": "^66.1.0-beta.12",
     "@unocss/preset-wind4": "66.1.0-beta.12",
     "@unocss/reset": "^66.1.0-beta.12",
