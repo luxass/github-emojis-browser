@@ -2,7 +2,7 @@
   "name": "github-emojis-browser",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.9.0",
+  "packageManager": "pnpm@10.14.0",
   "scripts": {
     "dev": "wrangler types && astro dev",
     "start": "wrangler types && astro dev",
@@ -13,29 +13,29 @@
     "typecheck": "wrangler types && astro check"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.5.0",
+    "@astrojs/cloudflare": "^12.6.2",
     "@iconify-json/mdi": "^1.2.3",
     "fuse.js": "^7.1.0",
-    "github-emojis": "^1.2.0",
-    "htmx.org": "^2.0.4"
+    "github-emojis": "^1.2.1",
+    "htmx.org": "^2.0.6"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
-    "@luxass/eslint-config": "^4.18.1",
-    "@unocss/eslint-plugin": "^66.1.0-beta.12",
-    "@unocss/preset-wind4": "66.1.0-beta.12",
-    "@unocss/reset": "^66.1.0-beta.12",
-    "@vueuse/components": "^13.1.0",
-    "astro": "^5.7.4",
+    "@luxass/eslint-config": "^5.2.5",
+    "@unocss/eslint-plugin": "^66.4.1",
+    "@unocss/preset-wind4": "66.4.1",
+    "@unocss/reset": "^66.4.1",
+    "@vueuse/components": "^13.6.0",
+    "astro": "^5.12.8",
     "astro-eslint-parser": "^1.2.2",
     "astro-icon": "^1.1.5",
-    "eslint": "^9.25.1",
+    "eslint": "^9.32.0",
     "eslint-plugin-astro": "^1.3.1",
     "eslint-plugin-format": "^1.0.1",
     "fuse.js": "^7.1.0",
     "prettier-plugin-astro": "^0.14.1",
-    "unocss": "^66.1.0-beta.12",
-    "wrangler": "^4.12.0"
+    "unocss": "^66.4.1",
+    "wrangler": "^4.27.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
