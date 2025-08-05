@@ -1,8 +1,30 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "compatibility_date": "2025-03-13",
-  "vars": {
-    "GITHUB_TOKEN": ""
+  "name": "github-emojis-browser",
+  "main": "./dist/_worker.js/index.js",
+  "compatibility_date": "2025-07-08",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist"
   },
-  "placement": { "mode": "smart" }
+  "observability": {
+    "enabled": true
+  },
+  "placement": {
+    "mode": "smart"
+  },
+  "routes": [
+    {
+      "custom_domain": true,
+      "pattern": "github-emojis.luxass.dev"
+    },
+    {
+      "custom_domain": true,
+      "pattern": "github-emojis.luxass.com"
+    }
+  ]
 }
