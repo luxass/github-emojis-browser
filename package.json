@@ -27,7 +27,7 @@
     "@unocss/preset-wind4": "66.5.2",
     "@unocss/reset": "66.5.2",
     "@vueuse/components": "13.9.0",
-    "astro": "5.13.11",
+    "astro": "5.14.1",
     "astro-eslint-parser": "^1.2.2",
     "astro-icon": "1.1.5",
     "eslint": "^9.32.0",
@@ -36,7 +36,7 @@
     "fuse.js": "7.1.0",
     "prettier-plugin-astro": "^0.14.1",
     "unocss": "66.5.2",
-    "wrangler": "4.40.0"
+    "wrangler": "4.40.2"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
