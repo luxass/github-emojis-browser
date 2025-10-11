@@ -2,7 +2,7 @@
   "name": "github-emojis-browser",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.17.1",
+  "packageManager": "pnpm@10.18.0",
   "scripts": {
     "dev": "wrangler types && astro dev",
     "start": "wrangler types && astro dev",
@@ -22,7 +22,7 @@
   "devDependencies": {
     "@astrojs/check": "0.9.4",
     "@luxass/eslint-config": "5.3.2",
-    "@types/node": "24.6.0",
+    "@types/node": "24.6.2",
     "@unocss/eslint-plugin": "66.4.1",
     "@unocss/preset-wind4": "66.5.2",
     "@unocss/reset": "66.5.2",
@@ -36,7 +36,7 @@
     "fuse.js": "7.1.0",
     "prettier-plugin-astro": "0.14.1",
     "unocss": "66.5.2",
-    "wrangler": "4.40.2"
+    "wrangler": "4.42.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
