@@ -27,7 +27,7 @@
     "@unocss/preset-wind4": "66.5.2",
     "@unocss/reset": "66.5.2",
     "@vueuse/components": "13.9.0",
-    "astro": "5.14.1",
+    "astro": "5.14.3",
     "astro-eslint-parser": "^1.2.2",
     "astro-icon": "1.1.5",
     "eslint": "^9.32.0",
