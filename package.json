@@ -22,12 +22,12 @@
   "devDependencies": {
     "@astrojs/check": "0.9.6",
     "@luxass/eslint-config": "6.0.3",
-    "@types/node": "24.10.2",
+    "@types/node": "24.10.4",
     "@unocss/eslint-plugin": "66.5.12",
-    "@unocss/preset-wind4": "66.5.10",
-    "@unocss/reset": "66.5.10",
+    "@unocss/preset-wind4": "66.5.12",
+    "@unocss/reset": "66.5.12",
     "@vueuse/components": "14.1.0",
-    "astro": "5.16.4",
+    "astro": "5.16.6",
     "astro-eslint-parser": "1.2.2",
     "astro-icon": "1.1.5",
     "eslint": "9.39.2",
@@ -35,8 +35,8 @@
     "eslint-plugin-format": "1.1.0",
     "fuse.js": "7.1.0",
     "prettier-plugin-astro": "0.14.1",
-    "unocss": "66.5.10",
-    "wrangler": "4.53.0"
+    "unocss": "66.5.12",
+    "wrangler": "4.54.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
