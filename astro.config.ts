@@ -1,6 +1,6 @@
 import cloudflare from "@astrojs/cloudflare";
 import icon from "astro-icon";
-import { defineConfig } from "astro/config";
+import { defineConfig, envField } from 'astro/config';
 import UnoCSS from "unocss/astro";
 import { astroHTMX } from "./astro-htmx";
 
@@ -14,11 +14,7 @@ export default defineConfig({
   ],
   env: {
     schema: {
-      GITHUB_TOKEN: {
-        type: "string",
-        access: "secret",
-        context: "server",
-      },
+      GITHUB_TOKEN: envField.string({ context: 'server', access: 'secret' }),
     },
   },
   trailingSlash: "never",
