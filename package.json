@@ -13,21 +13,21 @@
     "typecheck": "wrangler types && astro check"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "12.6.12",
+    "@astrojs/cloudflare": "13.0.0-beta.7",
     "@iconify-json/mdi": "1.2.3",
     "fuse.js": "7.1.0",
     "github-emojis": "1.2.3",
     "htmx.org": "2.0.8"
   },
   "devDependencies": {
-    "@astrojs/check": "0.9.6",
+    "@astrojs/check": "0.9.7-beta.1",
     "@luxass/eslint-config": "7.2.0",
     "@types/node": "24.10.8",
     "@unocss/eslint-plugin": "66.6.0",
     "@unocss/preset-wind4": "66.6.0",
     "@unocss/reset": "66.6.0",
     "@vueuse/components": "14.2.1",
-    "astro": "5.17.2",
+    "astro": "6.0.0-beta.11",
     "astro-eslint-parser": "1.2.2",
     "astro-icon": "1.1.5",
     "eslint": "10.0.0",

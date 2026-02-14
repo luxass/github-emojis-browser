@@ -1,13 +1,14 @@
 import type { APIRoute } from "astro";
+import { env } from "cloudflare:workers"
 
 export const prerender = false;
 
-export const GET: APIRoute = async ({ locals }) => {
+export const GET: APIRoute = async () => {
   const emojiUrlsRaw = await fetch("https://api.github.com/emojis", {
     headers: {
       "Accept": "application/vnd.github.v3+json",
       "X-GitHub-Api-Version": "2022-11-28",
-      "Authorization": `Bearer ${locals.runtime.env.GITHUB_TOKEN}`,
+      "Authorization": `Bearer ${env.GITHUB_TOKEN}`,
       "User-Agent": "github-emojis (https://github.com/luxass/github-emojis)",
     },
   }).then((res) => res.json());

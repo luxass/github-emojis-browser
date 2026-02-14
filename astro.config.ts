@@ -23,11 +23,8 @@ export default defineConfig({
   },
   trailingSlash: "never",
   adapter: cloudflare({
-    platformProxy: {
-      enabled: true,
-      configPath: "./wrangler.jsonc",
-    },
     imageService: "cloudflare",
+    sessionKVBindingName: undefined
   }),
   output: "server",
 });
