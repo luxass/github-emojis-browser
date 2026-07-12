@@ -2,7 +2,7 @@
   "name": "github-emojis-browser",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.29.3",
+  "packageManager": "pnpm@11.5.3",
   "scripts": {
     "dev": "wrangler types && astro dev",
     "start": "wrangler types && astro dev",
