@@ -13,7 +13,7 @@
     "typecheck": "wrangler types && astro check"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "13.0.0-beta.7",
+    "@astrojs/cloudflare": "13.1.10",
     "@iconify-json/mdi": "1.2.3",
     "fuse.js": "7.1.0",
     "github-emojis": "1.2.3",
